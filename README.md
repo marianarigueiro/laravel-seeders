@@ -79,6 +79,6 @@ O arquivo gerado está disponível em: [`/seeders_db`](./seeders_db)
 - [x] README documentando as etapas
 - [x] Arquivo `.sql` com o dump completo do banco (estrutura + dados)
 
-## 👤 Autor
+## Autor
 
 *mariana Rigueiro*
