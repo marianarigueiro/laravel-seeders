@@ -51,9 +51,7 @@ php artisan make:seeder UserSeeder
 php artisan make:seeder ProdutoSeeder
 ```
 
-A lógica de inserção massiva foi implementada no método `run()` de cada classe, utilizando [Model Factories com Faker / DB::table()->insert() — *descreva aqui qual abordagem você usou*].
-
-> *Adicione aqui um print do código dos seeders*
+A lógica de inserção massiva foi implementada no método `run()` de cada classe, utilizando [Model Factories com Faker / DB::table()->insert() — *A lógica de inserção massiva foi implementada no método run() de cada classe, utilizando Model Factories com Faker (Categoria::factory() e Produto::factory()).*].
 
 ### Etapa 2 — Execução do povoamento
 
@@ -67,22 +65,20 @@ A integridade dos dados foi validada no phpMyAdmin, verificando:
 - Quantidade de registros inseridos em cada tabela
 - Corretude dos relacionamentos (chaves estrangeiras)
 
-> *Adicione aqui um print do phpMyAdmin mostrando os dados povoados*
 
 ### Etapa 3 — Exportação do banco (Dump)
 
 Após validar a persistência dos dados, o banco foi exportado em formato `.sql` (estrutura + dados) via [phpMyAdmin / mysqldump].
 
-O arquivo gerado está disponível em: [`/database_dump.sql`](./database_dump.sql)
+O arquivo gerado está disponível em: [`/seeders_db`](./seeders_db)
 
-> *Adicione aqui um print da tela de exportação*
 
-## 📦 Entregáveis
+## Entregáveis
 
 - [x] Código-fonte com os Seeders implementados
 - [x] README documentando as etapas
 - [x] Arquivo `.sql` com o dump completo do banco (estrutura + dados)
 
-## Autor
+## 👤 Autor
 
-*Seu nome aqui*
+*mariana Rigueiro*
