@@ -70,7 +70,7 @@ A integridade dos dados foi validada no phpMyAdmin, verificando:
 
 Após validar a persistência dos dados, o banco foi exportado em formato `.sql` (estrutura + dados) via [phpMyAdmin / mysqldump].
 
-O arquivo gerado está disponível em: [`/seeders_db`](./seeders_db)
+O arquivo gerado está disponível em: [`seeders_db.sql`](./seeders_db.sql)
 
 
 ## Entregáveis
@@ -81,4 +81,4 @@ O arquivo gerado está disponível em: [`/seeders_db`](./seeders_db)
 
 ## Autor
 
-*mariana Rigueiro*
+*Mariana Rigueiro*
